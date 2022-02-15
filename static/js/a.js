@@ -43,7 +43,7 @@ function degToRad(deg) {
 
 function Firefly(id) {
     this.id = id;
-    this.width = getRandomInt(3, 6);
+    this.width = getRandomInt(9, 9);
     this.height = this.width;
     this.x = getRandomInt(0, (canvas.width - this.width));
     this.y = getRandomInt(0, (canvas.height - this.height));
